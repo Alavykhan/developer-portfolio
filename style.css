@@ -13,7 +13,7 @@ body{
     p{
         font-family: 'Merriweather', serif;
     }
-    section{
+    .flexible-container{
         display: flex;
         margin-bottom: 150px;
     }
@@ -42,4 +42,29 @@ body{
         background-repeat: no-repeat;
         background-position: right;
          }
-   
+
+.experience{
+    padding-left: 6%;
+}
+.experience-container{
+    background-image: url(image/developer-portfolio-master/images/exp-bg.png);
+    background-repeat: no-repeat;
+    
+}
+   .experience-item{
+       margin-left: 5%;
+       margin-right: 5%;
+       box-shadow: 20px 20px 40px gray;
+       border-top-right-radius: 5%;
+       border-bottom-right-radius: 5%;
+       }
+   #web-developer{
+       border-left:  7px solid;
+       border-image: linear-gradient(blue, aqua);
+       border-image-slice: 1;
+   }
+   #full-stack{
+    border-left:  7px solid;
+    border-image: linear-gradient(tomato, orange);
+    border-image-slice: 1;
+   }
