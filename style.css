@@ -68,3 +68,7 @@ body{
     border-image: linear-gradient(tomato, orange);
     border-image-slice: 1;
    }
+   footer p{
+       text-align: center;
+       color: gray;
+   }
