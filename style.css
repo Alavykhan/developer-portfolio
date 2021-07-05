@@ -11,3 +11,12 @@ body{
     p{
         font-family: 'Merriweather', serif;
     }
+    section{
+        display: flex;
+    }
+    .half-width{
+        50%
+    }
+   .half-width img{
+       70%
+   }
