@@ -14,9 +14,4 @@ body{
     section{
         display: flex;
     }
-    .half-width{
-        50%
-    }
-   .half-width img{
-       70%
-   }
+  
