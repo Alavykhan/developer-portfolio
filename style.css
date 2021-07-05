@@ -8,3 +8,6 @@ body{
     .color{
         color: orange;
     }
+    p{
+        font-family: 'Merriweather', serif;
+    }
